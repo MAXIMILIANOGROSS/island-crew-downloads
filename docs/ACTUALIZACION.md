@@ -12,4 +12,4 @@
 6. **Verifica.** Abre Island Crew Suite y comprueba que el Centro muestra tus datos y que Carta Viva, Publicaciones y Anuncios se abren.
 7. **Si algo falla.** Vuelve a instalar el ZIP anterior (si lo guardaste) y, si hiciera falta, restaura la copia de seguridad copiando de nuevo las carpetas del paso 3.
 
-Qué se ha probado: reinstalar encima de una instalación existente conservando configuración, claves y datos (mismo número de archivos tras reinstalar). La actualización entre dos versiones distintas todavía no se ha podido probar porque solo existe la 1.0.0.
+Qué se ha probado: reinstalar encima de una instalación existente conservando configuración, claves y datos (mismo número de archivos tras reinstalar). Se ha probado la actualización 1.0.0 → 1.1.0 en una cuenta aislada: configuración y datos conservados y Cabra Beats añadida.

@@ -4,7 +4,7 @@ Antes de instalar, comprueba que el archivo es exactamente el publicado por Isla
 
 1. Abre la app *Terminal*.
 2. Ve a la carpeta donde descargaste el ZIP, por ejemplo: `cd ~/Downloads`
-3. Calcula su huella: `shasum -a 256 IslandCrewSuite-1.0.0-macos-arm64.zip`
+3. Calcula su huella: `shasum -a 256 IslandCrewSuite-1.1.0-macos-arm64.zip`
 4. Compárala con la que aparece en el archivo `SHA256SUMS` (en las notas de la versión y en la página de descargas). **Tienen que ser idénticas.**
 
 Atajo: con `SHA256SUMS` en la misma carpeta, ejecuta `shasum -a 256 -c SHA256SUMS`; debe responder `OK`.

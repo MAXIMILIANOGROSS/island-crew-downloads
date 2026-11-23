@@ -20,7 +20,7 @@
 
 **¿Funciona en Windows o en Mac con Intel?** Este paquete es solo para macOS con chip Apple y no funciona en Mac con Intel. Existe un instalador de Windows candidato (sin firmar), pero no se ha probado en Windows y aún no se distribuye.
 
-**¿Incluye Cabra Beats?** No.
+**¿Incluye Cabra Beats?** Sí, desde la versión 1.1.0 de Mac. Los motores (unos 20 GB) se descargan de sus webs oficiales al final de la instalación o después; necesita 16 GB de memoria y 30 GB libres. En Windows todavía no está.
 
 **¿Por qué el Centro muestra cero?** Casi siempre porque el Centro no está leyendo la carpeta donde están tus datos. Comprueba: (1) que la carpeta de datos existe y el disco externo está conectado; (2) que tu usuario tiene permiso de lectura sobre ella; (3) que la carpeta elegida es la que contiene tus vídeos, cartas y publicaciones (la ruta se guarda en `config.json`, clave `datos`). Si algo falla, el Centro muestra una alerta que lo explica (carpeta no encontrada, unidad desconectada, sin permiso o solo lectura). Si no aparece ninguna alerta y todo es cero, esa carpeta aún no tiene contenido.
 

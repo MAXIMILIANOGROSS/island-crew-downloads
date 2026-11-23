@@ -1,7 +1,7 @@
 <p align="right"><a href="README.md">🇪🇸 Español</a> &nbsp;|&nbsp; <b>🇬🇧 English</b></p>
 
 <p align="center">
-  <img src="assets/island-crew-suite-banner.png" alt="Island Crew Suite: your control center for menus, posts and more" width="100%">
+  <img src="assets/island-crew-suite-banner.png" alt="Island Crew Suite" width="100%">
 </p>
 
 <h1 align="center">ISLAND CREW SUITE</h1>
@@ -9,152 +9,117 @@
 <p align="center"><b>Your island. Your workflow. Your crew.</b></p>
 
 <p align="center">
-Your control center for menus, posts, ads and management tools. All in one place.
+Your control centre for menus, posts, ads and AI music. All in one place, on your own computer.
 </p>
 
 <p align="center">
-  <b>Version 1.0.0</b> &nbsp;·&nbsp; 🍎 macOS Apple Silicon &nbsp;·&nbsp; 🪟 Windows 10/11 (RC3, testing) &nbsp;·&nbsp; Free
-</p>
-
-<p align="center">
-  <a href="https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases"><b>See all downloads (Releases)</b></a>
+  <b>Latest version 1.1.0</b> &nbsp;·&nbsp; 🍎 macOS Apple Silicon &nbsp;·&nbsp; 🪟 Windows 10/11 (RC3, in testing) &nbsp;·&nbsp; Free
 </p>
 
 ---
 
-## Welcome to Island Crew Suite
+## Download
 
-Island Crew Suite brings together several work tools for hospitality businesses and small shops in one suite that installs and runs on your own computer. It is designed to centralize everyday tasks: digital menus, posts and ads, all from one control panel.
+| | For | Version | Download |
+|---|---|---|---|
+| 🍎 | **macOS** (Apple silicon M1 or later) | **1.1.0** · includes Cabra Beats | **[⬇️ Download ZIP (71,7 MB)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.1.0-macos-arm64/IslandCrewSuite-1.1.0-macos-arm64.zip)** |
+| 🪟 | **Windows 10/11** (64 bits) | 1.0.0-RC3 · in testing, no Cabra Beats | [⬇️ Download EXE (28,4 MB)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-rc3-windows-x64/IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe) |
 
-It is free: no payments, no subscriptions, no mandatory sign-up and no advertising inside the program. It runs on your computer and does not send your data to Island Crew.
+All versions and release notes: **[Releases](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases)**.
 
----
-
-## What's included
-
-| | Program | What it does |
-|---|---|---|
-| 🧭 | **Control Center** (*Centro de Control*) | Launcher and panel to open and monitor the other programs. |
-| 🍽️ | **Carta Viva** | Interactive digital menus with a video per dish and a QR code. |
-| 📣 | **Cabra Social** | Posts, content calendar and ads (*Publicaciones* and *Anuncios* screens). |
-| 🎵 | **Cabra Beats** | Music factory: songs and jingles, covers, lyric videos and YouTube upload. **Separate download.** |
-
-> **Cabra Beats** (music production) is a **separate download**: find it in the [Downloads](#downloads) section just below.
-
-The programs and their documentation are currently in Spanish.
+> ⚠️ **Honest status of this release.** The Mac suite was installed, upgraded (1.0.0 → 1.1.0) and uninstalled successfully in isolated tests. **Cabra Beats**: the full engine installation was tested on a clean Mac, but **end-to-end music generation has not been confirmed yet** (the test Mac ran out of internal disk space). That is why 1.1.0 is published as a **pre-release**. **Windows RC3** has not been validated on a real Windows computer.
 
 ---
 
-## Downloads
+## What is included
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🍎 macOS
-
-**Island Crew Suite 1.0.0** · stable release
-
-- Macs with Apple silicon (M1 or later).
-- Does not work on Intel-based Macs.
-- Official ZIP package (about 71 MB).
-
-**[⬇️ DOWNLOAD FOR macOS](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-macos-arm64/IslandCrewSuite-1.0.0-macos-arm64.zip)**
-
-[Install guide](docs/INSTALACION.md) · [FAQ](docs/FAQ.md) · [License](LICENSE)
-
-</td>
-<td width="50%" valign="top">
-
-### 🪟 Windows
-
-**Island Crew Suite 1.0.0 RC3** · release candidate
-
-- Windows 10 and 11, 64-bit.
-- x64 installer (about 28 MB), unsigned.
-- Requires Microsoft Visual C++ Redistributable 2015-2022 (x64).
-
-**[⬇️ DOWNLOAD FOR WINDOWS (RC3, TESTING)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-rc3-windows-x64/IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe)**
-
-[Install guide](docs/README-INSTALACION-WINDOWS.md) · [FAQ](docs/FAQ-WINDOWS.md) · [Test sheet](docs/HOJA-RAPIDA-PRUEBA-WINDOWS.md)
-
-</td>
-</tr>
-</table>
-
-> ⚠️ **Windows RC3 is a test version.** It has not yet been validated on a real Windows computer: it was built and reviewed from macOS only. Because it is unsigned, Windows may show a SmartScreen warning. Read the [validation status](docs/ESTADO-VALIDACION-WINDOWS-RC3.md) first.
-
-### 🎵 Cabra Beats (music) · separate download
-
-**Cabra Beats 1.0.0** · for macOS with Apple silicon. Installed **after** the suite.
-
-- Mac with Apple silicon (M1 or later), **16 GB of memory** and **30 GB free** (disk formatted as APFS or Mac OS Extended).
-- The installer downloads the music and voice engines from their official websites (about 20 GB); they are not inside the ZIP (about 600 KB).
-- Voice cloning (RVC) is not included.
-
-**[⬇️ DOWNLOAD CABRA BEATS FOR macOS](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-cabra-beats-v1.0.0-macos-arm64/IslandCrewSuite-CabraBeats-1.0.0-macos-arm64.zip)**
-
-[Install guide (Spanish)](docs/CABRA-BEATS.md)
-
-### Status by platform
-
-| Platform | Version | Status |
+| | Program | What it is for |
 |---|---|---|
-| macOS Apple Silicon | 1.0.0 | Stable release. Tested on macOS 26.4.1. Package integrity verified with SHA-256. |
-| Windows x64 | 1.0.0-RC3 | Release candidate in testing. Pending validation on real Windows. |
-| Cabra Beats (macOS) | 1.0.0 | Full installation tested on a clean Mac. Music generation could not be confirmed end to end in that test. |
+| 🧭 | **Control Centre** | Launcher and dashboard from which you open and monitor the other programs. |
+| 🍽️ | **Carta Viva** | Interactive digital menus with one video per dish and a QR code. |
+| 📣 | **Cabra Social** | Posts, content calendar and ads. |
+| 🎵 | **Cabra Beats** | AI music factory: songs and jingles, covers, lyric videos and YouTube upload preparation. **Included in the Mac 1.1.0 version.** |
 
-### Verify your download (SHA-256)
-
-```
-macOS    b9d6f1ed80d4bdfcff5b07a534ced0ff0e13abd2270f1dc55b24820f0eb4a5c3
-Windows  6eccc2decd5dc41fdc57805f102a4f37aa0fde71e22d7ab7814c0a40ea94da24
-Cabra Beats  36203aec3baa211fb4b92b32300527c1be19f4164ff30f1e7522651b0adae81c
-```
-
-How to check it: [Verify integrity](docs/VERIFICAR-INTEGRIDAD.md).
+It is free: no payments, no subscriptions, no mandatory sign-up and no ads. It runs on your computer and does not send your data to Island Crew.
 
 ---
 
 ## Installation
 
-**Mac**
+### 🍎 macOS
 
-1. Download the ZIP and check its SHA-256.
-2. Double-click it to unzip.
-3. Right-click (or Control-click) `Instalar-Mac.command` → **Open** → **Open**. macOS warns you because the program does not yet carry a paid developer signature.
-4. Follow the wizard.
+1. Download the ZIP and (optionally) check its SHA-256.
+2. Double-click to unzip it.
+3. Right-click (or Control-click) `Instalar-Mac.command` → **Open** → **Open**. macOS warns because the program is not yet signed with a paid Apple certificate.
+4. Follow the wizard and paste the free licence in step 3.
+5. At the end the installer asks whether to **download the Cabra Beats engines now**. You can do it later with `Instalar-Motores-Cabra-Beats.command`.
 
-**Windows (RC3, testing)**
+### 🪟 Windows (RC3, in testing)
 
 1. Download the installer and check its SHA-256.
-2. Double-click it. If Windows shows an unrecognized-app warning, it is because the installer is unsigned; run it only if the hash matches and you downloaded it from this repository.
-3. Follow the wizard (installs for your user, no administrator rights needed). If the Visual C++ Redistributable is missing, the installer will tell you.
-4. Open "Island Crew Suite" from the Desktop or the Start menu.
-5. If something fails, report it following the [test sheet](docs/HOJA-RAPIDA-PRUEBA-WINDOWS.md).
+2. Double-click it. If Windows warns about an unrecognised app, it is because it is unsigned; run it only if the hash matches and you downloaded it from this repository.
+3. It installs for your user, without administrator rights. If Visual C++ Redistributable is missing, the installer tells you.
+
+---
+
+## 🎵 Cabra Beats
+
+- Apple silicon Mac, **16 GB of memory** and **30 GB free** on an APFS or "Mac OS Extended" disk (not exFAT/FAT/NTFS).
+- The music and voice engines (about 20 GB) are **downloaded from their official websites**; they are not inside the ZIP.
+- Without the engines the rest of the suite works the same; Cabra Beats cannot generate music.
+- Cloned voice (RVC) is not included. Not available for Windows yet.
+- Full guide: [docs/CABRA-BEATS.md](docs/CABRA-BEATS.md) (Spanish).
+
+---
+
+## Status by platform
+
+| Platform | Version | Status |
+|---|---|---|
+| macOS Apple Silicon | 1.1.0 (pre-release) | Install, upgrade from 1.0.0 and uninstall tested in isolated accounts (macOS 26.4.1, Mac mini M4). Cabra Beats: engine installation tested; end-to-end music generation not confirmed. |
+| Windows x64 | 1.0.0-RC3 | Release candidate in testing. Pending validation on real Windows. |
+
+---
+
+## Check your download (SHA-256)
+
+```
+macOS 1.1.0   c6406506cb95f40ab78bd6092c334c1dadf094d0a22897ddf3b7c86a7339502a
+Windows RC3   6eccc2decd5dc41fdc57805f102a4f37aa0fde71e22d7ab7814c0a40ea94da24
+```
+
+How to check: [Verify integrity](docs/VERIFICAR-INTEGRIDAD.md) (Spanish).
+
+---
+
+## Previous versions
+
+| Version | Note | SHA-256 |
+|---|---|---|
+| [macOS 1.0.0](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-macos-arm64/IslandCrewSuite-1.0.0-macos-arm64.zip) | Without Cabra Beats. Superseded by 1.1.0. | `b9d6f1ed80d4bdfc…` |
+| [Cabra Beats 1.0.0 (separate)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-cabra-beats-v1.0.0-macos-arm64/IslandCrewSuite-CabraBeats-1.0.0-macos-arm64.zip) | No longer needed: 1.1.0 includes it. | `36203aec3baa211f…` |
 
 ---
 
 ## Documentation
 
-The guides below are in Spanish.
-
 | Topic | Mac | Windows |
 |---|---|---|
 | Installation | [Guide](docs/INSTALACION.md) · [Cabra Beats](docs/CABRA-BEATS.md) | [Guide](docs/README-INSTALACION-WINDOWS.md) · [User guide](docs/GUIA-USUARIO-WINDOWS.md) |
 | FAQ | [FAQ](docs/FAQ.md) | [FAQ](docs/FAQ-WINDOWS.md) |
-| Testing | | [Quick sheet](docs/HOJA-RAPIDA-PRUEBA-WINDOWS.md) · [Test log](docs/HOJA_DE_REGISTRO_PRUEBAS_WINDOWS_RC3.md) |
+| What is new | [1.1.0](v1.1.0/RELEASE-NOTES.md) | [RC3](v1.0.0-rc3-windows/RELEASE-NOTES.md) |
 
-For both platforms: [Requirements and compatibility](docs/REQUISITOS-Y-COMPATIBILIDAD.md) · [Backups](docs/COPIAS-DE-SEGURIDAD.md) · [Updating](docs/ACTUALIZACION.md) · [Uninstalling](docs/DESINSTALACION.md) · [Known limitations](docs/LIMITACIONES-CONOCIDAS.md) · [Privacy](docs/PRIVACIDAD.md) · [Licenses and notices](docs/LICENCIAS-Y-AVISOS.md)
+For both platforms: [Requirements](docs/REQUISITOS-Y-COMPATIBILIDAD.md) · [Backups](docs/COPIAS-DE-SEGURIDAD.md) · [Updating](docs/ACTUALIZACION.md) · [Uninstalling](docs/DESINSTALACION.md) · [Known limitations](docs/LIMITACIONES-CONOCIDAS.md) · [Privacy](docs/PRIVACIDAD.md) · [Licences and notices](docs/LICENCIAS-Y-AVISOS.md)
 
 ---
 
 ## Need help?
 
-Check the documentation and FAQ first. If the problem persists, write to **hola@islandcrew.es** with your system (Mac or Windows) and what happened. More in [Support](docs/SOPORTE.md).
+Check the documentation and FAQ first. If you are still stuck, write to **hola@islandcrew.es** with your system and what happened.
 
 ---
 
 <p align="center">
-  Software by Maximiliano Olmos Sánchez for Island Crew Marketing. All rights reserved; free use is granted through the free license.
+  Software by Maximiliano Olmos Sánchez for Island Crew Marketing. All rights reserved; free use is granted through the free licence.<br>
+  <a href="README.md"><i>Leer esta página en español</i></a>
 </p>

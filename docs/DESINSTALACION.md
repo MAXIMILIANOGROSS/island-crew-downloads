@@ -3,7 +3,7 @@
 **El desinstalador nunca borra tus datos.** Solo quita los programas.
 
 ## Desinstalar
-1. Abre la carpeta `IslandCrewSuite-1.0.0-macos-arm64` (la del ZIP).
+1. Abre la carpeta `IslandCrewSuite-1.1.0-macos-arm64` (la del ZIP).
 2. Clic derecho sobre `Desinstalar-Mac.command` → **Abrir**.
 3. Verás el mensaje «Island Crew Suite desinstalada. Tus cartas y datos NO se han borrado.»
 
@@ -20,3 +20,5 @@ Se eliminan: la carpeta del programa (`~/Library/Application Support/IslandCrewS
 Cierra los programas y, con Finder, elimina a mano: la carpeta `programa` dentro de `~/Library/Application Support/IslandCrewSuite` y los cuatro lanzadores de `~/Applications` (y del Escritorio). Nada más es necesario.
 
 Qué se ha probado: desinstalación en una cuenta aislada, con datos y configuración conservados, sin lanzadores ni accesos rotos y sin procesos residuales.
+
+Los motores de Cabra Beats (`~/IslandCrewAI`) no se borran; elimínalos tú con Finder para recuperar el espacio.
