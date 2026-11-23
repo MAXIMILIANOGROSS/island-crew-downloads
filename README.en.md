@@ -31,7 +31,8 @@ All versions and release notes: **[Releases](https://github.com/MAXIMILIANOGROSS
 
 ---
 
-## What is included
+<details>
+<summary><h2>What is included</h2></summary>
 
 | | Program | What it is for |
 |---|---|---|
@@ -42,9 +43,10 @@ All versions and release notes: **[Releases](https://github.com/MAXIMILIANOGROSS
 
 It is free: no payments, no subscriptions, no mandatory sign-up and no ads. It runs on your computer and does not send your data to Island Crew.
 
----
+</details>
 
-## Installation
+<details>
+<summary><h2>Installation</h2></summary>
 
 ### 🍎 macOS
 
@@ -60,9 +62,10 @@ It is free: no payments, no subscriptions, no mandatory sign-up and no ads. It r
 2. Double-click it. If Windows warns about an unrecognised app, it is because it is unsigned; run it only if the hash matches and you downloaded it from this repository.
 3. It installs for your user, without administrator rights. If Visual C++ Redistributable is missing, the installer tells you.
 
----
+</details>
 
-## 🎵 Cabra Beats
+<details>
+<summary><h2>🎵 Cabra Beats</h2></summary>
 
 - Apple silicon Mac, **16 GB of memory** and **30 GB free** on an APFS or "Mac OS Extended" disk (not exFAT/FAT/NTFS).
 - The music and voice engines (about 20 GB) are **downloaded from their official websites**; they are not inside the ZIP.
@@ -70,18 +73,20 @@ It is free: no payments, no subscriptions, no mandatory sign-up and no ads. It r
 - Cloned voice (RVC) is not included. Not available for Windows yet.
 - Full guide: [docs/CABRA-BEATS.md](docs/CABRA-BEATS.md) (Spanish).
 
----
+</details>
 
-## Status by platform
+<details>
+<summary><h2>Status by platform</h2></summary>
 
 | Platform | Version | Status |
 |---|---|---|
 | macOS Apple Silicon | 1.1.0 (pre-release) | Install, upgrade from 1.0.0 and uninstall tested in isolated accounts (macOS 26.4.1, Mac mini M4). Cabra Beats: engine installation tested; end-to-end music generation not confirmed. |
 | Windows x64 | 1.0.0-RC3 | Release candidate in testing. Pending validation on real Windows. |
 
----
+</details>
 
-## Check your download (SHA-256)
+<details>
+<summary><h2>Check your download (SHA-256)</h2></summary>
 
 ```
 macOS 1.1.0   c6406506cb95f40ab78bd6092c334c1dadf094d0a22897ddf3b7c86a7339502a
@@ -90,18 +95,20 @@ Windows RC3   6eccc2decd5dc41fdc57805f102a4f37aa0fde71e22d7ab7814c0a40ea94da24
 
 How to check: [Verify integrity](docs/VERIFICAR-INTEGRIDAD.md) (Spanish).
 
----
+</details>
 
-## Previous versions
+<details>
+<summary><h2>Previous versions</h2></summary>
 
 | Version | Note | SHA-256 |
 |---|---|---|
 | [macOS 1.0.0](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-macos-arm64/IslandCrewSuite-1.0.0-macos-arm64.zip) | Without Cabra Beats. Superseded by 1.1.0. | `b9d6f1ed80d4bdfc…` |
 | [Cabra Beats 1.0.0 (separate)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-cabra-beats-v1.0.0-macos-arm64/IslandCrewSuite-CabraBeats-1.0.0-macos-arm64.zip) | No longer needed: 1.1.0 includes it. | `36203aec3baa211f…` |
 
----
+</details>
 
-## Documentation
+<details>
+<summary><h2>Documentation</h2></summary>
 
 | Topic | Mac | Windows |
 |---|---|---|
@@ -111,13 +118,14 @@ How to check: [Verify integrity](docs/VERIFICAR-INTEGRIDAD.md) (Spanish).
 
 For both platforms: [Requirements](docs/REQUISITOS-Y-COMPATIBILIDAD.md) · [Backups](docs/COPIAS-DE-SEGURIDAD.md) · [Updating](docs/ACTUALIZACION.md) · [Uninstalling](docs/DESINSTALACION.md) · [Known limitations](docs/LIMITACIONES-CONOCIDAS.md) · [Privacy](docs/PRIVACIDAD.md) · [Licences and notices](docs/LICENCIAS-Y-AVISOS.md)
 
----
+</details>
 
-## Need help?
+<details>
+<summary><h2>Need help?</h2></summary>
 
 Check the documentation and FAQ first. If you are still stuck, write to **hola@islandcrew.es** with your system and what happened.
 
----
+</details>
 
 <p align="center">
   Software by Maximiliano Olmos Sánchez for Island Crew Marketing. All rights reserved; free use is granted through the free licence.<br>

@@ -31,7 +31,8 @@ Todas las versiones y sus notas: **[Releases](https://github.com/MAXIMILIANOGROS
 
 ---
 
-## Qué incluye
+<details>
+<summary><h2>Qué incluye</h2></summary>
 
 | | Programa | Para qué sirve |
 |---|---|---|
@@ -42,9 +43,10 @@ Todas las versiones y sus notas: **[Releases](https://github.com/MAXIMILIANOGROS
 
 Es gratuita: sin pagos, sin suscripciones, sin registro obligatorio y sin publicidad. Funciona en tu ordenador y no envía tus datos a Island Crew.
 
----
+</details>
 
-## Instalación
+<details>
+<summary><h2>Instalación</h2></summary>
 
 ### 🍎 macOS
 
@@ -60,9 +62,10 @@ Es gratuita: sin pagos, sin suscripciones, sin registro obligatorio y sin public
 2. Haz doble clic. Si Windows avisa de aplicación no reconocida es porque no está firmado; ejecútalo solo si el hash coincide y lo has descargado de este repositorio.
 3. Se instala para tu usuario, sin permisos de administrador. Si falta Visual C++ Redistributable, el instalador te avisa.
 
----
+</details>
 
-## 🎵 Cabra Beats
+<details>
+<summary><h2>🎵 Cabra Beats</h2></summary>
 
 - Mac con chip Apple, **16 GB de memoria** y **30 GB libres** en un disco APFS o «Mac OS Plus» (no exFAT/FAT/NTFS).
 - Los motores de música y voz (unos 20 GB) se **descargan de sus webs oficiales**; no van dentro del ZIP.
@@ -70,18 +73,20 @@ Es gratuita: sin pagos, sin suscripciones, sin registro obligatorio y sin public
 - No incluye la voz clonada (RVC). Todavía no existe para Windows.
 - Guía completa: [docs/CABRA-BEATS.md](docs/CABRA-BEATS.md).
 
----
+</details>
 
-## Estado por plataforma
+<details>
+<summary><h2>Estado por plataforma</h2></summary>
 
 | Plataforma | Versión | Estado |
 |---|---|---|
 | macOS Apple Silicon | 1.1.0 (pre-release) | Instalación, actualización desde 1.0.0 y desinstalación probadas en cuentas aisladas (macOS 26.4.1, Mac mini M4). Cabra Beats: instalación de motores probada; generación de música de principio a fin sin confirmar. |
 | Windows x64 | 1.0.0-RC3 | Candidata en pruebas. Pendiente de validar en Windows real. |
 
----
+</details>
 
-## Comprueba tu descarga (SHA-256)
+<details>
+<summary><h2>Comprueba tu descarga (SHA-256)</h2></summary>
 
 ```
 macOS 1.1.0   c6406506cb95f40ab78bd6092c334c1dadf094d0a22897ddf3b7c86a7339502a
@@ -90,18 +95,20 @@ Windows RC3   6eccc2decd5dc41fdc57805f102a4f37aa0fde71e22d7ab7814c0a40ea94da24
 
 Cómo comprobarlo: [Verificar integridad](docs/VERIFICAR-INTEGRIDAD.md).
 
----
+</details>
 
-## Versiones anteriores
+<details>
+<summary><h2>Versiones anteriores</h2></summary>
 
 | Versión | Nota | SHA-256 |
 |---|---|---|
 | [macOS 1.0.0](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-macos-arm64/IslandCrewSuite-1.0.0-macos-arm64.zip) | Sin Cabra Beats. Sustituida por la 1.1.0. | `b9d6f1ed80d4bdfc…` |
 | [Cabra Beats 1.0.0 (aparte)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-cabra-beats-v1.0.0-macos-arm64/IslandCrewSuite-CabraBeats-1.0.0-macos-arm64.zip) | Ya no hace falta: la 1.1.0 la incluye. | `36203aec3baa211f…` |
 
----
+</details>
 
-## Documentación
+<details>
+<summary><h2>Documentación</h2></summary>
 
 | Tema | Mac | Windows |
 |---|---|---|
@@ -111,13 +118,14 @@ Cómo comprobarlo: [Verificar integridad](docs/VERIFICAR-INTEGRIDAD.md).
 
 Para ambas plataformas: [Requisitos](docs/REQUISITOS-Y-COMPATIBILIDAD.md) · [Copias de seguridad](docs/COPIAS-DE-SEGURIDAD.md) · [Actualización](docs/ACTUALIZACION.md) · [Desinstalación](docs/DESINSTALACION.md) · [Limitaciones conocidas](docs/LIMITACIONES-CONOCIDAS.md) · [Privacidad](docs/PRIVACIDAD.md) · [Licencias y avisos](docs/LICENCIAS-Y-AVISOS.md)
 
----
+</details>
 
-## ¿Necesitas ayuda?
+<details>
+<summary><h2>¿Necesitas ayuda?</h2></summary>
 
 Consulta primero la documentación y las preguntas frecuentes. Si sigues con el problema, escribe a **hola@islandcrew.es** indicando tu sistema y qué ha pasado.
 
----
+</details>
 
 <p align="center">
   Software de Maximiliano Olmos Sánchez para Island Crew Marketing. Todos los derechos reservados; el uso gratuito se concede mediante la licencia libre.<br>
