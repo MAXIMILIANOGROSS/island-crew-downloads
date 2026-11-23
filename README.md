@@ -37,8 +37,9 @@ Es gratuita: sin pagos, sin suscripciones, sin registro obligatorio y sin public
 | 🧭 | **Centro de Control** | Lanzador y panel desde el que abres y vigilas los demás programas. |
 | 🍽️ | **Carta Viva** | Cartas digitales interactivas con un vídeo por plato y código QR. |
 | 📣 | **Cabra Social** | Publicaciones, calendario de contenido y anuncios (pantallas *Publicaciones* y *Anuncios*). |
+| 🎵 | **Cabra Beats** | Fábrica de música: canciones y jingles, portadas, vídeos con la letra y subida a YouTube. **Descarga aparte.** |
 
-> **Cabra Beats** (producción musical) **no está incluido** en esta descarga. Es un producto independiente que todavía no está disponible.
+> **Cabra Beats** (producción musical) es una **descarga aparte**: la tienes en la sección [Descargas](#descargas), justo debajo.
 
 ---
 
@@ -81,18 +82,32 @@ Es gratuita: sin pagos, sin suscripciones, sin registro obligatorio y sin public
 
 > ⚠️ **Windows RC3 es una versión de prueba.** Todavía no se ha validado en un ordenador Windows real: se construyó y revisó solo desde macOS. Al no estar firmado, Windows puede mostrar un aviso de SmartScreen. Léete antes el [estado de validación](docs/ESTADO-VALIDACION-WINDOWS-RC3.md).
 
+### 🎵 Cabra Beats (música) · descarga aparte
+
+**Cabra Beats 1.0.0** · para macOS con chip Apple. Se instala **después** de la suite.
+
+- Mac con chip Apple (M1 o posterior), **16 GB de memoria** y **30 GB libres** (disco con formato APFS o Mac OS Plus).
+- El instalador descarga los motores de música y voz desde sus webs oficiales (unos 20 GB); no van dentro del ZIP (unos 600 KB).
+- No incluye la voz clonada (RVC).
+
+**[⬇️ DESCARGAR CABRA BEATS PARA macOS](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-cabra-beats-v1.0.0-macos-arm64/IslandCrewSuite-CabraBeats-1.0.0-macos-arm64.zip)**
+
+[Guía de instalación](docs/CABRA-BEATS.md)
+
 ### Estado por plataforma
 
 | Plataforma | Versión | Estado |
 |---|---|---|
 | macOS Apple Silicon | 1.0.0 | Release estable. Probado en macOS 26.4.1. Integridad del paquete verificada con SHA-256. |
 | Windows x64 | 1.0.0-RC3 | Candidata en pruebas. Pendiente de validación en Windows real. |
+| Cabra Beats (macOS) | 1.0.0 | Instalación completa probada en un Mac limpio. La generación de música no se ha podido confirmar de principio a fin en esa prueba. |
 
 ### Comprueba tu descarga (SHA-256)
 
 ```
 macOS    b9d6f1ed80d4bdfcff5b07a534ced0ff0e13abd2270f1dc55b24820f0eb4a5c3
 Windows  6eccc2decd5dc41fdc57805f102a4f37aa0fde71e22d7ab7814c0a40ea94da24
+Cabra Beats  36203aec3baa211fb4b92b32300527c1be19f4164ff30f1e7522651b0adae81c
 ```
 
 Cómo comprobarlo: [Verificar integridad](docs/VERIFICAR-INTEGRIDAD.md).
@@ -122,7 +137,7 @@ Cómo comprobarlo: [Verificar integridad](docs/VERIFICAR-INTEGRIDAD.md).
 
 | Tema | Mac | Windows |
 |---|---|---|
-| Instalación | [Guía](docs/INSTALACION.md) | [Guía](docs/README-INSTALACION-WINDOWS.md) · [Guía de usuario](docs/GUIA-USUARIO-WINDOWS.md) |
+| Instalación | [Guía](docs/INSTALACION.md) · [Cabra Beats](docs/CABRA-BEATS.md) | [Guía](docs/README-INSTALACION-WINDOWS.md) · [Guía de usuario](docs/GUIA-USUARIO-WINDOWS.md) |
 | Preguntas frecuentes | [FAQ](docs/FAQ.md) | [FAQ](docs/FAQ-WINDOWS.md) |
 | Pruebas | | [Hoja rápida](docs/HOJA-RAPIDA-PRUEBA-WINDOWS.md) · [Hoja de registro](docs/HOJA_DE_REGISTRO_PRUEBAS_WINDOWS_RC3.md) |
 
