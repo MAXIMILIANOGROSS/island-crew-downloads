@@ -117,6 +117,22 @@ flowchart LR
 </p>
 
 
+<details open>
+<summary><h2>Screenshots</h2></summary>
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/screenshots/carta-viva.png" alt="Carta Viva"><br><b>Carta Viva</b><br><sub>One video per dish and a QR menu</sub></td>
+<td width="50%" align="center"><img src="assets/screenshots/cabra-beats.png" alt="Cabra Beats"><br><b>Cabra Beats</b><br><sub>AI music dashboard</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="assets/screenshots/publicaciones.png" alt="Cabra Social"><br><b>Cabra Social · Posts</b><br><sub>Content calendar ready to upload</sub></td>
+<td width="50%" align="center"><img src="assets/screenshots/anuncios.png" alt="Cabra Social"><br><b>Cabra Social · Ads</b><br><sub>Ads in every format</sub></td>
+</tr>
+</table>
+
+</details>
+
 <details>
 <summary><h2>Installation</h2></summary>
 
