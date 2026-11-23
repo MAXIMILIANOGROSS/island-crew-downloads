@@ -13,37 +13,109 @@ Tu centro de control para cartas, publicaciones, anuncios y música con IA. Todo
 </p>
 
 <p align="center">
-  <b>Última versión 1.1.0</b> &nbsp;·&nbsp; 🍎 macOS Apple Silicon &nbsp;·&nbsp; 🪟 Windows 10/11 (RC3, en prueba) &nbsp;·&nbsp; Gratuito
+  <a href="https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.1.0-macos-arm64/IslandCrewSuite-1.1.0-macos-arm64.zip"><img src="https://img.shields.io/badge/Descargar_para_macOS-1.1.0-0A84FF?style=for-the-badge&logo=apple&logoColor=white" alt="macOS"></a>
+  &nbsp;
+  <a href="https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-rc3-windows-x64/IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe"><img src="https://img.shields.io/badge/Descargar_para_Windows-RC3_en_prueba-F5B84A?style=for-the-badge&logo=windows&logoColor=black" alt="Windows"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/versión-1.1.0-1F3A93?style=flat-square" alt="1.1.0">
+  <img src="https://img.shields.io/badge/macOS-Apple_Silicon-0A84FF?style=flat-square&logo=apple&logoColor=white" alt="macOS">
+  <img src="https://img.shields.io/badge/Windows-10%2F11_(RC3)-F5B84A?style=flat-square&logo=windows&logoColor=black" alt="Windows">
+  <img src="https://img.shields.io/badge/gratis-100%25-2EA44F?style=flat-square" alt="free">
+  <img src="https://img.shields.io/badge/sin_telemetría-✔-2EA44F?style=flat-square" alt="no telemetry">
+  <img src="https://img.shields.io/github/downloads/MAXIMILIANOGROSS/island-crew-downloads/total?style=flat-square&color=E8A317&label=descargas" alt="downloads">
+  <img src="https://img.shields.io/github/last-commit/MAXIMILIANOGROSS/island-crew-downloads?style=flat-square&color=8E44AD&label=actualizado" alt="updated">
+</p>
+
+<p align="center">
+  <a href="#descargar"><b>Descargar</b></a> ·
+  <a href="#empieza-en-3-pasos">3 pasos</a> ·
+  <a href="#qué-incluye">Qué incluye</a> ·
+  <a href="docs/CABRA-BEATS.md">Cabra Beats</a> ·
+  <a href="docs/FAQ.md">FAQ</a> ·
+  <a href="docs/SOPORTE.md">Soporte</a> ·
+  <a href="https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases">Releases</a>
 </p>
 
 ---
 
 ## Descargar
 
-| | Para | Versión | Descarga |
-|---|---|---|---|
-| 🍎 | **macOS** (chip Apple M1 o posterior) | **1.1.0** · incluye Cabra Beats | **[⬇️ Descargar ZIP (71,7 MB)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.1.0-macos-arm64/IslandCrewSuite-1.1.0-macos-arm64.zip)** |
-| 🪟 | **Windows 10/11** (64 bits) | 1.0.0-RC3 · en prueba, sin Cabra Beats | [⬇️ Descargar EXE (28,4 MB)](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-rc3-windows-x64/IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe) |
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
 
-Todas las versiones y sus notas: **[Releases](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases)**.
+### 🍎 macOS
 
-> ⚠️ **Estado honesto de esta versión.** La suite de Mac está instalada, actualizada (1.0.0 → 1.1.0) y desinstalada con éxito en pruebas aisladas. **Cabra Beats**: la instalación completa de sus motores se probó en un Mac limpio, pero la **generación de música de principio a fin todavía no se ha confirmado** (el Mac de pruebas se quedó sin espacio en el disco interno). Por eso la 1.1.0 se publica como **pre-release**. **Windows RC3** no se ha validado en un ordenador Windows real.
+**Versión 1.1.0** · incluye Cabra Beats<br>
+Mac con chip Apple (M1 o posterior)
+
+**[⬇️ Descargar el ZIP · 71,7 MB](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.1.0-macos-arm64/IslandCrewSuite-1.1.0-macos-arm64.zip)**
+
+<sub>Guía: [instalación](docs/INSTALACION.md) · [FAQ](docs/FAQ.md)</sub>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### 🪟 Windows
+
+**Versión 1.0.0-RC3** · en prueba, sin Cabra Beats<br>
+Windows 10/11 (64 bits)
+
+**[⬇️ Descargar el EXE · 28,4 MB](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases/download/island-crew-suite-v1.0.0-rc3-windows-x64/IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe)**
+
+<sub>Guía: [instalación](docs/README-INSTALACION-WINDOWS.md) · [FAQ](docs/FAQ-WINDOWS.md)</sub>
+
+</td>
+</tr>
+</table>
+
+> [!WARNING]
+> **Estado honesto de la 1.1.0 (pre-release).** La suite de Mac se instaló, se actualizó (1.0.0 → 1.1.0) y se desinstaló con éxito en pruebas aisladas. En **Cabra Beats**, la instalación de los motores se probó en un Mac limpio, pero la **generación de música de principio a fin aún no está confirmada**. **Windows RC3** no se ha validado en un ordenador Windows real.
+
+> [!NOTE]
+> **Novedad 1.1.0:** Cabra Beats (música con IA) viene ya dentro de la suite de Mac. Todas las versiones: [Releases](https://github.com/MAXIMILIANOGROSS/island-crew-downloads/releases).
 
 ---
 
-<details>
-<summary><h2>Qué incluye</h2></summary>
+## Empieza en 3 pasos
+
+| 1️⃣ | 2️⃣ | 3️⃣ |
+|:---:|:---:|:---:|
+| **Descarga**<br>el ZIP (Mac) o el EXE (Windows) | **Abre el instalador**<br>Mac: clic derecho en `Instalar-Mac.command` → Abrir | **Pega la licencia libre**<br>en el paso 3 del asistente |
+
+> [!TIP]
+> En Mac, al final el instalador te ofrece descargar los motores de Cabra Beats (unos 20 GB). Puedes dejarlo para después. Más detalle abajo, en «Instalación».
+
+---
+
+## Qué incluye
+
+```mermaid
+flowchart LR
+  CC["🧭 Centro de Control"]:::centro --> CV["🍽️ Carta Viva"]:::carta
+  CC --> CS["📣 Cabra Social"]:::social
+  CC --> CB["🎵 Cabra Beats"]:::musica
+  classDef centro fill:#1F3A93,stroke:#0F1F5C,color:#fff
+  classDef carta fill:#2EA44F,stroke:#1B6B33,color:#fff
+  classDef social fill:#0A84FF,stroke:#0757A8,color:#fff
+  classDef musica fill:#F5B84A,stroke:#B07A10,color:#14100b
+```
 
 | | Programa | Para qué sirve |
-|---|---|---|
+|:---:|---|---|
 | 🧭 | **Centro de Control** | Lanzador y panel desde el que abres y vigilas los demás programas. |
 | 🍽️ | **Carta Viva** | Cartas digitales interactivas con un vídeo por plato y código QR. |
 | 📣 | **Cabra Social** | Publicaciones, calendario de contenido y anuncios. |
-| 🎵 | **Cabra Beats** | Fábrica de música con IA: canciones y jingles, portadas, vídeos con la letra y preparación de la subida a YouTube. **Incluida en la versión de Mac 1.1.0.** |
+| 🎵 | **Cabra Beats** | Música con IA: canciones y jingles, portadas, vídeos con la letra y preparación de la subida a YouTube. **Incluida en la versión de Mac 1.1.0.** |
 
-Es gratuita: sin pagos, sin suscripciones, sin registro obligatorio y sin publicidad. Funciona en tu ordenador y no envía tus datos a Island Crew.
+---
 
-</details>
+<p align="center">
+  <b>🆓 Gratis</b> &nbsp;·&nbsp; <b>🚫 Sin registro</b> &nbsp;·&nbsp; <b>🔒 Sin telemetría</b> &nbsp;·&nbsp; <b>💻 Tus datos no salen de tu ordenador</b>
+</p>
+
 
 <details>
 <summary><h2>Instalación</h2></summary>
