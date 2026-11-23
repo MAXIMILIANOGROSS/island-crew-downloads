@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="img/favicon.png"><title>Descargas · Island Crew Suite</title>
+<style>
+:root{--bg:#0e1116;--card:#161b22;--tx:#e8edf2;--mut:#9aa7b4;--ac:#f2b134;--bd:#2a323c}
+@media(prefers-color-scheme:light){:root{--bg:#f6f7f9;--card:#fff;--tx:#14181d;--mut:#55616e;--bd:#d9dee4}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:28px 16px 60px}h1{font-size:1.8rem;margin:.2em 0}h2{margin:1.8em 0 .5em;font-size:1.2rem}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin:10px 0}
+.g{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}.m{color:var(--mut)}
+code,pre{font-family:ui-monospace,monospace;font-size:.85rem;word-break:break-all;white-space:pre-wrap}
+.b{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--bd);color:var(--mut);font-weight:600;cursor:not-allowed}
+.t{display:inline-block;font-size:.75rem;padding:2px 8px;border-radius:99px;border:1px solid var(--bd);color:var(--mut)}
+</style></head><body><main>
+<img src="img/island-crew-suite.png" alt="Island Crew Suite" style="display:block;width:min(260px,70vw);height:auto;margin:0 auto 8px"><h1 style="text-align:center">Island Crew Suite</h1>
+<p><b>Free desktop software · macOS Apple Silicon · Version 1.0.0</b></p>
+<p class="m">Programas para negocios de hostelería que funcionan en tu propio ordenador. Gratuitos: sin pagos, sin suscripciones, sin registro y sin publicidad dentro del programa.</p>
+
+<p class="m"><a href="../docs/INSTALACION.md">Instalación</a> · <a href="../docs/ACTUALIZACION.md">Actualización</a> · <a href="../docs/DESINSTALACION.md">Desinstalación</a> · <a href="../docs/FAQ.md">Preguntas frecuentes</a> · <a href="../v1.0.0/CHANGELOG.md">Changelog</a> · <a href="../docs/SOPORTE.md">Soporte</a></p>
+<h2>Los cuatro programas</h2>
+<div class="g">
+<div class="c"><b>Centro de Control</b><br><span class="m">Lanzador y panel de actividad de los demás programas.</span><br><span class="t">Incluido en la descarga</span></div>
+<div class="c"><b>Carta Viva</b><br><span class="m">Cartas digitales interactivas con un vídeo por plato y código QR.</span><br><span class="t">Incluido en la descarga</span></div>
+<div class="c"><b>Cabra Social</b><br><span class="m">Publicaciones, calendario de contenido y anuncios.</span><br><span class="t">Incluido en la descarga</span></div>
+<div class="c"><b>Cabra Beats</b><br><span class="m">Producción musical: canciones, instrumentales y jingles.</span><br><span class="t">Próximamente · descarga independiente</span></div>
+</div>
+
+<h2>Descargas</h2>
+<div class="g">
+<div class="c"><b>macOS (Mac con chip Apple)</b> <span class="t">v1.0.0</span><br>
+<span class="m">Probado en macOS 26.4.1.</span><br><br>
+<span class="b" aria-disabled="true">Lanzamiento pendiente</span><br><br>
+<span class="m">Fecha de publicación:</span> pendiente de publicar<br><span class="m">Archivo:</span> <code>IslandCrewSuite-1.0.0-macos-arm64.zip</code> (71 117 669 bytes)<br>
+<span class="m">SHA-256:</span> <code>b9d6f1ed80d4bdfcff5b07a534ced0ff0e13abd2270f1dc55b24820f0eb4a5c3</code></div>
+<div class="c"><b>Windows 10/11 (64 bits)</b> <span class="t">1.0.0-RC3 · versión candidata</span><br><span class="m"><b>Instalador disponible — RC3 — pendiente de validación en Windows real.</b> Todavía no se ha probado en un ordenador Windows físico, no está firmado y Windows puede mostrar un aviso de seguridad.</span><br><br><span class="b" aria-disabled="true">Lanzamiento pendiente</span><br><br><span class="m">Archivo:</span> <code>IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe</code> (28 429 608 bytes)<br><span class="m">SHA-256:</span> <code>6eccc2decd5dc41fdc57805f102a4f37aa0fde71e22d7ab7814c0a40ea94da24</code><br><span class="m">Requiere el Visual C++ Redistributable 2015-2022 (x64). Limitaciones en <code>ESTADO-VALIDACION-WINDOWS-RC3.md</code>.</span></div>
+<div class="c"><b>Mac con Intel</b> <span class="t">No disponible</span></div>
+</div>
+<p class="m">Cada plataforma tiene su paquete independiente. Los botones se activarán cuando las descargas estén publicadas y verificadas. Hasta entonces no hay enlaces de descarga.</p>
+
+<h2>Requisitos</h2>
+<p><b>macOS:</b> Mac con chip Apple (M1 o posterior), unos 600 MB libres, sin permisos de administrador. Python y ffmpeg van incluidos. Otras versiones de macOS distintas de la probada (26.4.1) no se han verificado.</p>
+<p><b>Windows (RC3):</b> Windows 10 u 11 de 64 bits y Visual C++ Redistributable 2015-2022 (x64). No necesita permisos de administrador. Versión candidata no validada en Windows real.</p>
+
+<h2>Cómo verificar el SHA-256</h2><p>En Terminal: <code>shasum -a 256 </code> y arrastra el ZIP. El resultado debe ser idéntico a la huella de la tarjeta de descarga y al archivo <code>SHA256SUMS</code> de la release. Si no coincide, no lo abras.</p>
+<h2>Instalación</h2>
+<ol><li>Comprueba la huella: <code>shasum -a 256 IslandCrewSuite-1.0.0-macos-arm64.zip</code> y compárala con la de arriba.</li>
+<li>Descomprime el ZIP.</li>
+<li>Clic derecho en <code>Instalar-Mac.command</code> → Abrir → Abrir (el programa aún no lleva firma de pago de Apple).</li>
+<li>En el paso 3 del asistente pega la licencia libre:</li></ol>
+<div class="c"><b>Licencia libre</b><pre>eyJjYWR1Y2EiOiBudWxsLCAiY2xpZW50ZSI6ICJMaWNlbmNpYSBsaWJyZSBJc2xhbmQgQ3JldyBTdWl0ZSAxLjAiLCAiZmFicmljYXMiOiBbImFudW5jaW9zIiwgImNhcnRhIiwgInB1YmxpY2FjaW9uZXMiXX0=.O_dncBAOe4YpHmS_CtyZoblfl2wvCkhRtLjGAzghHOHMPiINdTbqS8GAx03x6ZwSamOPpLpxpf7taoegjNvxBw==</pre></div>
+
+<h2>Verificar e instalar en Windows (RC3)</h2><p>En PowerShell: <code>Get-FileHash .\IslandCrewSuite-Setup-1.0.0-RC3-win-x64.exe -Algorithm SHA256</code>; debe coincidir con la huella de la tarjeta de Windows. El instalador no está firmado, así que SmartScreen puede avisar: no lo ejecutes si el hash no coincide o no lo has descargado de la fuente oficial. Tus datos se conservan al desinstalar.</p>
+<h2>Aviso de seguridad de macOS</h2>
+<p>Esta aplicación <b>no está notarizada por Apple</b> (la notarización requiere una cuenta de pago). Por eso macOS puede avisar al abrir el instalador. No hace falta desactivar ninguna protección del sistema: usa clic derecho → Abrir y confirma. Si prefieres no hacerlo, comprueba el SHA-256 y espera a una versión notarizada.</p>
+<h2>Seguridad y privacidad</h2>
+<p>Sin telemetría: no envía tus datos a Island Crew. Solo se conecta a internet si usas funciones con servicios externos (Google Gemini/YouTube, Groq, Meta, Pixabay, Pexels) con tus propias claves. Las claves se guardan en un archivo local de tu usuario, sin cifrar y con lectura solo para ti, no en el Llavero de macOS. La licencia libre se comprueba sin conexión.</p>
+
+<h2>Limitaciones</h2>
+<ul><li>macOS: solo chip Apple. Windows: RC3 sin validar en un equipo real y sin firma.</li><li>Sin firma ni notarización de Apple: macOS avisa al abrir.</li><li>Cabra Beats no incluido.</li><li>Las integraciones con servicios externos dependen de tus claves y cuotas y no están garantizadas.</li><li>El programa prepara el contenido; la publicación en redes la haces tú.</li></ul>
+
+<h2>Preguntas frecuentes</h2>
+<div class="c"><b>¿Es realmente gratis?</b><br>Sí. No hay pagos, suscripciones ni registro.</div>
+<div class="c"><b>¿Qué hago si macOS dice que no puede verificar el desarrollador?</b><br>Usa clic derecho → Abrir sobre el instalador.</div>
+<div class="c"><b>¿Se borran mis datos al desinstalar?</b><br>No. El desinstalador elimina los programas, no tus cartas ni tu configuración.</div>
+<div class="c"><b>¿Necesito claves de IA?</b><br>No para abrir los programas; sí para los textos y traducciones automáticos. Son gratuitas y las obtienes tú.</div>
+<div class="c"><b>Soporte</b><br>hola@islandcrew.es</div>
+
+<h2>Historial de versiones</h2>
+<div class="c"><b>1.0.0</b> <span class="t">macOS Apple Silicon</span><br><span class="m">Primera versión: Centro de Control, Carta Viva y Cabra Social (Publicaciones y Anuncios). El Centro respeta la carpeta de datos elegida en el asistente y avisa si esa carpeta no está disponible. Detalle en <a href="../v1.0.0/CHANGELOG.md">CHANGELOG.md</a>.</span></div>
+<h2>Avisos legales y licencias</h2>
+<p>Software de Maximiliano Olmos Sánchez para Island Crew Marketing, bajo la licencia incluida en <a href="../LICENSE">LICENSE</a> y la licencia libre de esta página. Componentes de terceros (Python, ffmpeg, Pillow, segno y otros) con sus licencias en <a href="../v1.0.0/THIRD-PARTY-NOTICES.txt">THIRD-PARTY-NOTICES.txt</a>. Revisión interna realizada por el propio autor; no es una auditoría externa ni una certificación. <a href="../docs/PRIVACIDAD.md">Privacidad</a> · <a href="../docs/LIMITACIONES-CONOCIDAS.md">Limitaciones conocidas</a>.</p>
+<p class="m" style="margin-top:32px">Software de Maximiliano Olmos Sánchez para Island Crew Marketing. Componentes de terceros: ver THIRD-PARTY-NOTICES.txt.</p>
+</main></body></html>

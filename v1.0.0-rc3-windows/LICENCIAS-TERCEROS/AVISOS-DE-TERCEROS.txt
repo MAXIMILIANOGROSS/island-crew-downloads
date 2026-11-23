@@ -1,0 +1,13 @@
+AVISOS DE TERCEROS - Island Crew Suite 1.0.0 (paquete Windows)
+Este archivo recoge avisos exigidos por componentes de terceros incluidos en el paquete.
+Los textos completos de licencia viajan en: Licencias/ y Licencias/TERCEROS/ (componentes nativos de Python), runtime/python/LICENSE.txt, runtime/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE y app/scripts/carta-viva/vendor (segno).
+
+FreeType (incluido en Pillow 13.0.0 como freetype 2.14.3):
+Portions of this software are copyright (c) 2026 The FreeType Project (www.freetype.org). All rights reserved.
+FreeType se ofrece bajo dos licencias excluyentes (FTL o GPLv2), a elegir una. Island Crew Suite se acoge a la FreeType License (FTL).
+ESTADO: elección de licencia y redacción del aviso pendientes de confirmación jurídica (LAWYER REVIEW REQUIRED).
+
+OpenSSL 3.5.9 (libcrypto-3.dll, libssl-3.dll): Apache License 2.0. Texto completo: Licencias/OpenSSL-3.5.9-LICENSE.txt. Procedencia: Licencias/PROCEDENCIA-DE-LICENCIAS.txt.
+
+Componentes nativos de Python: expat 2.9.0 (MIT), mpdecimal 4.0.0 (BSD-2-Clause), Zstandard 1.5.7 (BSD), zlib-ng 2.2.4 (zlib), xz/liblzma (dominio público) y libtommath (LibTom, dominio público): textos en Licencias/TERCEROS/. Las versiones de xz (5.2.5) y de libtommath no están confirmadas en los binarios; ver Licencias/PROCEDENCIA-DE-LICENCIAS.txt.
+SQLite 3.50.4: dominio público.

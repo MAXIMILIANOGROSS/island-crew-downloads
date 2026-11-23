@@ -1,0 +1,35 @@
+ISLAND CREW SUITE 1.0.0 · Licencias y avisos de componentes de terceros
+(Borrador pendiente de revisión jurídica · el texto definitivo de la licencia de usuario final lo fijará el titular con su abogado)
+
+El software de Island Crew (suite, Carta Viva, Cabra Social, Centro de control, asistente y plantillas) es obra de
+Maximiliano Olmos Sánchez para Island Crew Marketing. Contacto: hola@islandcrew.es
+
+Los vídeos, la música, las imágenes, los textos y los demás contenidos que crees o publiques con este software
+siguen siendo tuyos o de sus legítimos titulares. Island Crew no adquiere derechos sobre ellos y es tu responsabilidad
+contar con los derechos y autorizaciones necesarios.
+
+Componentes de terceros incluidos en el paquete Windows (cada uno conserva su propia licencia; no se aplican al software de Island Crew):
+
+1. Python 3.14.10 (embeddable, amd64) · https://www.python.org · licencia de la Python Software Foundation. Texto: runtime/python/LICENSE.txt,
+   que incluye además los avisos de bzip2 1.0.8 y libffi (MIT). Ese fichero NO contiene los avisos de los demás componentes nativos que acompañan a
+   Python; sus textos viajan en Licencias/TERCEROS/ (ver Licencias/PROCEDENCIA-DE-LICENCIAS.txt, con la fuente y el hash de cada texto):
+   - OpenSSL 3.5.9 · Apache-2.0 · Licencias/OpenSSL-3.5.9-LICENSE.txt
+   - expat 2.9.0 · MIT · Licencias/TERCEROS/expat-2.9.0-COPYING.txt
+   - mpdecimal 4.0.0 · BSD-2-Clause · Licencias/TERCEROS/mpdecimal-4.0.0-COPYRIGHT.txt
+   - Zstandard 1.5.7 · BSD · Licencias/TERCEROS/zstd-1.5.7-LICENSE.txt
+   - zlib-ng 2.2.4 · zlib · Licencias/TERCEROS/zlib-ng-2.2.4-LICENSE.txt
+   - xz/liblzma · dominio público · Licencias/TERCEROS/xz-5.2.5-COPYING.txt (versión 5.2.5 según la compilación de Python; NO confirmada en el binario)
+   - libtommath · LibTom (dominio público) · Licencias/TERCEROS/libtommath-LICENSE.txt (versión y procedencia NO determinadas)
+   - SQLite 3.50.4 · dominio público (no exige texto).
+
+2. Pillow 13.0.0 · https://python-pillow.org · licencia MIT-CMU. Texto completo y avisos de las bibliotecas que incorpora:
+   runtime/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE. Entre ellas, FreeType 2.14.3, que se ofrece bajo licencia dual
+   (FreeType License o GPLv2, a elegir una); ver AVISOS-DE-TERCEROS.txt.
+
+3. segno 1.6.6 (códigos QR) · https://github.com/heuer/segno · licencia BSD-3-Clause.
+   Texto: app/scripts/carta-viva/vendor/segno-1.6.6.dist-info/licenses/LICENSE.
+
+NO se incluyen y, si los usas, los instalas tú bajo sus propias condiciones:
+- FFmpeg (https://ffmpeg.org): necesario solo para crear vídeos, subtítulos y MP3.
+- Motores y modelos de IA locales (música, voces).
+Los servicios externos (Google/YouTube, Meta, Gemini, Groq, Pixabay, Pexels, Hugging Face) se rigen por sus propias condiciones.
