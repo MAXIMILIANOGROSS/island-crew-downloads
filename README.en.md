@@ -1,7 +1,7 @@
 <p align="right"><a href="README.md">🇪🇸 Español</a> &nbsp;|&nbsp; <b>🇬🇧 English</b></p>
 
 <p align="center">
-  <img src="assets/island-crew-suite-banner.png" alt="Island Crew Suite" width="100%">
+  <img src="assets/island-crew-suite-banner-en.png" alt="Island Crew Suite" width="100%">
 </p>
 
 <h1 align="center">ISLAND CREW SUITE</h1>
